@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+:root {
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-gray: #CCCCCC;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,4 +18,22 @@
 a, a:hover {
     text-decoration: none;
     color: unset;
+}
+
+header {
+    background-color: var(--color-red);
+}
+
+nav h1 {
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+nav a {
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+nav img {
+    width: 20px;
 }
