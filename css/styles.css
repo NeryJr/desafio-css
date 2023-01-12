@@ -20,8 +20,22 @@ a, a:hover {
     color: unset;
 }
 
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 header {
     background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 nav h1 {
@@ -34,6 +48,69 @@ nav a {
     font-size: 14px;
 }
 
+nav a:hover {
+    color: white;
+}
+
 nav img {
-    width: 20px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+#first-section {
+    background-color: var(--color-blue);
+}
+
+.space-card{
+    padding-bottom: 20px;
+}
+
+.space-card h2 {
+    color: var(--color-white);
+    padding: 20px 0 40px 0;
+    font-size: 32px;
+}
+
+.space-card-text {
+    background-color: var(--color-gray);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: var(--color-black);
+}
+
+.space-card-text h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.space-card-text p {
+    font-size: 14px;
+}
+
+#second-section {
+    background-color: var(--color-white);
+}
+
+.fights-card {
+    padding-bottom: 20px;
+}
+
+.fights-card h2 {
+    color: var(--color-red);
+    padding: 20px 0 40px 0;
+    font-size: 32px;
+}
+
+.fights-card-text {
+    background-color: var(--color-blue);
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.fights-card-text h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
 }
