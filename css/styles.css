@@ -29,12 +29,12 @@ a, a:hover {
 header {
     background-color: var(--color-red);
     height: 100px;
-    display: flex;
-    align-items: center;
+    display: flex;  
 }
 
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -46,6 +46,7 @@ nav h1 {
 nav a {
     color: var(--color-white);
     font-size: 14px;
+    display: flex;
 }
 
 nav a:hover {
@@ -128,8 +129,23 @@ footer {
     align-items: center;
 }
 
+.align{
+    display: flex;
+}
+
+.social-media a{
+    font-size: 14px;
+    display: flex;
+    padding-top: 10px;
+}
+
 .social-media img {
     width: 30px;
+    padding-right: 10px;
+}
+
+.text-twitter {
+    padding-right: 8px;
 }
 
 .infos {
